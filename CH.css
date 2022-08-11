@@ -1,0 +1,86 @@
+/* background */
+body{
+  background-image: url("background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body, html{
+  height: 100%
+}
+
+/* box */
+.box1{
+    background-color: #000;
+    color: #fff;
+    opacity: .5 ;
+    padding: 5%;
+}
+
+/* testa */
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  opacity: 1;
+}
+
+.titolo{
+  text-align: center;
+  color: green;
+  opacity: 1;
+}
+
+/* prenotazioni */
+.prenotazione{
+  text-align: center;
+  background-color: green;
+  padding: 10px;
+}
+
+/* barre prenotazione persone */
+.fullwidth-yellow{
+        width: 300px;
+        height: 40px;
+        left: 20px;
+        right: 30px;
+    }
+
+.bar-yellow{
+    background:yellow;
+    overflow:hidden;
+    height:100%;
+    width:100%
+  }
+
+.fullwidth-green{
+    width: 600px;
+    height: 40px;
+    left: 20px;
+    right: 30px;
+}
+
+.bar-green{
+    background:green;
+    overflow:hidden;
+    height:100%;
+    width:100%
+}
+
+.fullwidth-red{
+    width: 150px;
+    height: 40px;
+    left: 20px;
+    right: 30px;
+}
+
+.bar-red{
+    background:red;
+    overflow:hidden;
+    height:100%;
+    width:100%
+}
